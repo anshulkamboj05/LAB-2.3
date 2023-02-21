@@ -1,11 +1,7 @@
-print("Average of integers")
-N = int(input("enter integer (N>1)= "))
+# Average of integers
+maximum_number = int(input("Enter integer greather then 1): /n "))
 total = 0
-for i in range(1, N+1):
+for i in range(1, maximum_number+1):
     total += i
-    print(i,"  ""total: ", total,)
-average = total / N
+average = total / maximum_number
 print("The average is:", average)
-
-
-
